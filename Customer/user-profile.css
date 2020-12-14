@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+*:focus{
+    outline: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    grid-template-rows: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 2%;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: black;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    vertical-align: baseline;
+}
+.input{
+    display: flex;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+.aside{
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex:0 0 194px;
+    margin-top: 6px;
+    text-align: right;
+    padding-left: 32px;
+    padding-right: 32px;
+    line-height: 18px;
+
+}
+
+
+
+.delete{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+input{
+    border: 1px solid rgb(111, 110, 110);
+    background: 0 0;
+    
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgb(55, 54, 54);
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 355px;
+    -ms-flex: 0 1 355px;
+    flex: 0 1 355px;
+    font-size: 16px;
+    height: 32px;
+    padding: 0 10px;
+    width: 100%;
+}
+.delete button{
+    box-sizing: border-box;
+    height: 32px;
+    padding: 0 10px;
+    width: 100%;
+}
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+}

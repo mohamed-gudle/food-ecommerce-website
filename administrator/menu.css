@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+:root{
+    --yellow: #f29100;
+    --blue:rgb(64, 79, 97);
+    --greyish:#a8a8a8;
+    --white:rgb(222,223,228);
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    background: white;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    
+  
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.302);
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.header p{
+    text-align: left;
+    color: rgb(80, 80, 80);
+  
+}
+.center{
+    justify-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+.card a{
+    text-decoration: none;
+    color: var(--blue);
+}
+.card a:hover{
+    text-decoration: underline;
+    color: var(--yellow);
+}
+#add{
+    text-decoration: underline;
+    color: white;
+    box-sizing: content-box;
+    background-color:  var(--yellow);
+    position: fixed;
+    float: right;
+    
+}
+#add:hover{
+background-color: white;
+color: var(--blue);
+}
+
+
+

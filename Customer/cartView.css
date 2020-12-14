@@ -1,0 +1,22 @@
+
+table img{
+    height:180px;
+    width: 180px;
+    padding: 10px;
+
+}
+.card{
+    display: flex;
+    align-items: space-between;
+    width: min-content;
+    
+}
+.card h3{
+align-self: center;
+justify-self: center;
+width: min-content;
+}
+.table-wrapper{
+    margin-top: 20px;
+    
+}

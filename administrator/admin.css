@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+
+}
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */ /* Set the width of the sidebar */
+    float: left;
+    padding:1% ;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    margin-left: -4%;
+    margin-top: -4%;
+  
+  }
+  
+  /* The navigation menu links */
+  .sidenav a,input {
+    padding: 2%;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #818181;
+    display: block;
+    background: none;
+    border: none;
+  }
+  
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover,input:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    
+    padding: 5%;
+  }
+  
+    a{
+      list-style: none;
+      color: #f29100;
+      text-decoration: underline;
+  }
+  a:hover{
+color: black;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
